@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* <---course offered---> */
+
+
+.course-main{
+    margin: 2.9%;
+}
+
+#h2-1{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+
+/* <----courses----> */
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+#bba,#bca,#bhm{
+    width: calc(93%/3);
+    height: 20%;
+    
+}
+#sub{
+    background-color: #272626;
+}
+#sub img{
+    width: 100%;
+}
+#sub p,button{
+    padding-left: 2%;
+}
+#p{
+    margin-top: 1.5%;
+    color: blue;
+    text-shadow: 1px 0 rgb(7, 7, 226);
+}
+#p-2{
+    margin-top: 1.5%;
+}
+ #p-2 span{
+    vertical-align: super;
+    text-shadow: 1px 1px 3px #fff;
+} 
+#p-2 img{
+    width: 5%;
+    margin-left: 4%;
+    padding: 0;
+}
+#sub button,#button{
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 247);
+    text-shadow: 1px 1px 1px #181818;
+}
+#button{
+    margin-top: 2%;
+    margin-left: 23%;
+}
+#h2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow:1px 2px 15px #fff;
+}
+
+
+/* <----media----> */
+
+@media only screen and (max-width: 450px){
+    body{
+        font-size: 10px;
+    }
+    #sub button,#button{
+        font-size: 10px;
+    }
+    .courses{
+        flex-direction: column;
+    }
+    #bba,#bca,#bhm{
+        width: 100%;
+    }
+}
