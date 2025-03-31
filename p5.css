@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    padding: 5px 3%;
+}
+.navbar{
+    height: 10vh;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+.navbar .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar .logo i{
+    font-size: 30px;
+}
+.navbar .about_part{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.navbar .about_part ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 70px;
+    font-size: 20px;
+}
+.navbar button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}   /* Navbar End */
+.first_body{
+    display: flex;
+    margin-top: 10vh;
+    padding: 5vh 0px;
+}
+.first_body .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first_body .left h1{
+    font-size: 80px;
+}
+.first_body .left p{
+    font-size: 20px;
+    color: #00000070;
+}
+.first_body .left button{
+    width: 30%;
+    padding: 10px;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+
+}
+.first_body .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 65vh;
+}
+.brand_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand_logo img{
+    height: 60px;
+    width: 120px;
+}
+.service_info{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 30%;
+}
+.service_info p{
+    font-size: 20px;
+    color: #00000070;
+}
+.service_info button{
+    font-size: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c4fa80;
+}
+.service_box{
+    margin-top: 10vh;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    row-gap: 6%;
+    column-gap: 1%;
+    
+}
+.service_box .new_box{
+    width: 98%;
+    height: 40vh;
+    border: 2px solid;
+    border-radius: 30px;
+    border-bottom: 10px solid;
+    display: flex;
+    padding: 50px;
+}
+.new_box .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.new_box .left span{
+    font-size: 30px;
+    background-color: #c4fa80;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+.new_box .left label{
+    font-size: 20px;
+    
+}
+.new_box .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.new_box .right img{
+    width: 70%;
+    height: 70%;
+}
+
+.full_box{
+    height: 30vh;
+    background-color: #f3f3f3;
+    margin-top: 20vh;
+    padding: 2%;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 50% 50%;
+}
+.full_box .left{
+    height: 85%;
+    display: flex;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.full_box .left h1{
+    margin-bottom: 10px;
+}
+.full_box .left button{
+    width: 40%;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.full_box .right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.full_box .right img{
+    height: 200px;
+    width: 200px;
+    margin-right: 10%;
+}
+.futtor{
+    margin-top: 10vh;
+}
+.futtor .top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.futtor .top span{
+    font-size: 30px;
+    background-color: #c4fa80;
+    border-radius: 10px;
+    padding: 5px;
+}
+.futtor .top p{
+    font-size: 20px;
+    /* display: inline; */
+}
+.futtor .three_box{
+    display: flex;
+    margin-top: 10vh;
+    height: 40vh;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+.futtor .three_box .box1{
+    height: 100%;
+    width: 33%;
+    color: white;
+    padding-right: 5%;
+    display: flex;
+    font-size: 20px;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid white;
+}
+
+
+
+
+
+/* Mobile Phones */
+@media (max-width: 520px) {
+    .main{
+      padding: -20px 0;
+    }  
+    .navbar{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .about_part ul{
+        font-size: 15px;
+        gap: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .first_body{
+        margin-top: 15vh;
+        width: 100%;
+        flex-direction: column;
+      }
+      .first_body .left h1{
+        font-size: 30px;
+      }
+      .first_body .left button{
+        width: fit-content;
+      }
+      .first_body .left,.first_body .right{
+        width: 100%;
+      }
+      .first_body .right{
+        height: 50vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .first_body .right img{
+        width: 80%;
+      }
+      .brand_logo img{
+        height: 50px;
+        width: 50px;
+      }
+      .service_info{
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+      }
+      .service_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .service_box .new_box{
+        height: 30vh;
+        padding: 30px 20px;
+      }
+      .new_box .left span{
+        font-size: 25px;
+      }
+      .full_box{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .full_box .left button{
+        width: fit-content;
+        margin-top: 5%;
+        padding: 0px 2%;
+      }
+      .full_box .right{
+        align-items: center;
+        justify-content: center;
+      }
+      .futtor .top span{
+        font-size: 25px;
+      }
+      .futtor .top p{
+        font-size: 13px;
+      }
+      .futtor .three_box{
+        height: fit-content;
+        flex-direction: column;
+        padding: 10%;
+        gap: 50px;
+      }
+      .futtor .three_box .box1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+    }
+    
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .main{
+      padding: -20px 0;
+    }  
+    .navbar{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .logo h2,.navbar .logo i{
+        font-size: 80px;
+    }
+      .navbar .about_part ul{
+        font-size: 30px;
+        display: flex;
+      }
+      .navbar button{
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .first_body{
+        margin-top: 15vh;
+        width: 100%;
+        flex-direction: column;
+      }
+      .first_body .left h1{
+        font-size: 80px;
+      }
+      .first_body .left button{
+        width: fit-content;
+        padding: 10px 40px;
+        font-size: 40px;
+      }
+      .first_body .left,.first_body .right{
+        width: 100%;
+      }
+      .first_body .right{
+        height: 30vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .first_body .right img{
+        width: 80%;
+      }
+      .brand_logo img{
+        height: 80px;
+        width: 80px;
+      }
+      .service_box{
+        margin-top: 5vh;
+      }
+      .service_info{
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+      }
+      .service_info button{
+        font-size: 60px;
+      }
+      .service_info p{
+        font-size: 30px;
+      }
+      .service_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .service_box .new_box{
+        height: 20vh;
+        font-size: 25px;
+        padding: 30px 40px;
+      }
+      .new_box .left span{
+        font-size: 40px;
+      }
+      .full_box{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .full_box .left button{
+        width: fit-content;
+        margin-top: 5%;
+        padding: 0px 2%;
+      }
+      .full_box .right{
+        align-items: center;
+        justify-content: center;
+      }
+      .futtor .top span{
+        font-size: 40px;
+      }
+      .futtor .top p{
+        font-size: 20px;
+      }
+      .futtor .three_box{
+        height: fit-content;
+        flex-direction: column;
+        padding: 10%;
+        gap: 50px;
+      }
+      .futtor .three_box .box1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+    }
+    
+
+    
+    /* Mobile Phones */
+@media (max-width: 520px) {
+    .main{
+      padding: -20px 0;
+    }  
+    .navbar{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .about_part ul{
+        font-size: 15px;
+        gap: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .first_body{
+        margin-top: 15vh;
+        width: 100%;
+        flex-direction: column;
+      }
+      .first_body .left h1{
+        font-size: 30px;
+      }
+      .first_body .left button{
+        width: fit-content;
+      }
+      .first_body .left,.first_body .right{
+        width: 100%;
+      }
+      .first_body .right{
+        height: 50vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .first_body .right img{
+        width: 80%;
+      }
+      .brand_logo img{
+        height: 50px;
+        width: 50px;
+      }
+      .service_info{
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+      }
+      .service_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .service_box .new_box{
+        height: 30vh;
+        padding: 30px 20px;
+      }
+      .new_box .left span{
+        font-size: 25px;
+      }
+      .full_box{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .full_box .left button{
+        width: fit-content;
+        margin-top: 5%;
+        padding: 0px 2%;
+      }
+      .full_box .right{
+        align-items: center;
+        justify-content: center;
+      }
+      .futtor .top span{
+        font-size: 25px;
+      }
+      .futtor .top p{
+        font-size: 13px;
+      }
+      .futtor .three_box{
+        height: fit-content;
+        flex-direction: column;
+        padding: 10%;
+        gap: 50px;
+      }
+      .futtor .three_box .box1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+    }
+    
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .main{
+      padding: -20px 0;
+    }  
+    .navbar{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .logo h2,.navbar .logo i{
+        font-size: 80px;
+    }
+      .navbar .about_part ul{
+        font-size: 30px;
+        display: flex;
+      }
+      .navbar button{
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .first_body{
+        margin-top: 15vh;
+        width: 100%;
+        flex-direction: column;
+      }
+      .first_body .left h1{
+        font-size: 80px;
+      }
+      .first_body .left button{
+        width: fit-content;
+        padding: 10px 40px;
+        font-size: 40px;
+      }
+      .first_body .left,.first_body .right{
+        width: 100%;
+      }
+      .first_body .right{
+        height: 30vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .first_body .right img{
+        width: 80%;
+      }
+      .brand_logo img{
+        height: 80px;
+        width: 80px;
+      }
+      .service_box{
+        margin-top: 5vh;
+      }
+      .service_info{
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+      }
+      .service_info button{
+        font-size: 60px;
+      }
+      .service_info p{
+        font-size: 30px;
+      }
+      .service_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .service_box .new_box{
+        height: 20vh;
+        font-size: 25px;
+        padding: 30px 40px;
+      }
+      .new_box .left span{
+        font-size: 40px;
+      }
+      .full_box{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .full_box .left button{
+        width: fit-content;
+        margin-top: 5%;
+        padding: 0px 2%;
+      }
+      .full_box .right{
+        align-items: center;
+        justify-content: center;
+      }
+      .futtor .top span{
+        font-size: 40px;
+      }
+      .futtor .top p{
+        font-size: 20px;
+      }
+      .futtor .three_box{
+        height: fit-content;
+        flex-direction: column;
+        padding: 10%;
+        gap: 50px;
+      }
+      .futtor .three_box .box1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+    }
+    
+    /* Desktops */
+    @media (min-width: 1025px) {
+      
+    }
+    
