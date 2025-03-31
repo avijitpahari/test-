@@ -1,0 +1,192 @@
+
+
+/* Mobile Phones */
+@media (max-width: 450px) {
+    .main{
+      padding: -20px 0;
+    }  
+    .navbar{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .about_part ul{
+        font-size: 15px;
+        gap: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .first_body{
+        margin-top: 15vh;
+        width: 100%;
+        flex-direction: column;
+      }
+      .first_body .left h1{
+        font-size: 30px;
+      }
+      .first_body .left button{
+        width: fit-content;
+      }
+      .first_body .left,.first_body .right{
+        width: 100%;
+      }
+      .first_body .right{
+        height: 50vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .first_body .right img{
+        width: 80%;
+      }
+      .brand_logo img{
+        height: 50px;
+        width: 50px;
+      }
+      .service_info{
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+      }
+      .service_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .service_box .new_box{
+        height: 30vh;
+        padding: 30px 20px;
+      }
+      .new_box .left span{
+        font-size: 25px;
+      }
+      .full_box{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .full_box .left button{
+        width: fit-content;
+        margin-top: 5%;
+        padding: 0px 2%;
+      }
+      .full_box .right{
+        align-items: center;
+        justify-content: center;
+      }
+      .futtor .top span{
+        font-size: 25px;
+      }
+      .futtor .top p{
+        font-size: 13px;
+      }
+      .futtor .three_box{
+        height: fit-content;
+        flex-direction: column;
+        padding: 10%;
+        gap: 50px;
+      }
+      .futtor .three_box .box1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+    }
+    
+/* laptops */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .main{
+            padding: -20px 0;
+          }
+
+          .navbar .logo {
+            gap: 7px;
+          }
+          .navbar .logo span{
+            font-size: 20px;
+        }
+        .navbar .about_part{
+            margin-right: 30px;
+        }
+        .navbar .about_part ul{
+            gap: 42px;
+        }
+        .first_body .left button{
+            width: fit-content;
+          }
+          .first_body .left h1{
+            font-size: 70px;
+        }
+        .first_body .right{
+            width: 50%;
+            height: 63vh;
+        }
+        .full_box .left button{
+            font-size: 14px;
+        }
+        .futtor .three_box .box1{
+            font-size: 18px;
+        }
+    } 
+    
+
+    
+    /* tablets */
+ @media (max-width: 768px) {
+    .main{
+        padding: -20px 0;
+      }
+      .navbar .logo {
+        gap: 7px;
+      }
+    .navbar .about_part ul {
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar button{
+        padding: 10px 25px;
+        font-size: 13px;
+    } 
+    .navbar .about_part {
+        margin-right: 20px;
+      } 
+    .first_body .left h1 {
+        font-size: 60px;
+    }
+    .first_body .right{
+        height: 50vh;
+    }
+    .first_body .left p {
+        font-size: 17px;
+    }
+    .first_body .left button {
+        width: 40%;
+        font-size: 13px;
+    }
+    .brand_logo img{
+        height: 50px;
+        width: 95px;
+    }
+    .service_info button {
+        font-size: 25px;
+    }
+    .service_info p {
+        font-size: 18px;
+    }
+    .new_box .left span {
+        font-size: 25px;
+    }
+
+    }
+    }  
+    
+  
+    /* Desktops */
+    @media (min-width: 1025px) {
+      
+    }
+    
