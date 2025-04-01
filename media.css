@@ -38,9 +38,14 @@
       .first_body .right img{
         width: 80%;
       }
+      .brand_logo{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
       .brand_logo img{
-        height: 50px;
-        width: 50px;
+        height: 20px;
+        width: 40px;
+        margin-right: 3.5%;
       }
       .service_info{
         margin-top: 5vh;
@@ -178,15 +183,32 @@
         font-size: 18px;
     }
     .new_box .left span {
-        font-size: 25px;
+        font-size: 22px;
     }
-
+    .new_box .left label {
+        font-size: 16px;
+    }
+    .full_box .left h1{
+        font-size: 23px;
+    }
+    .full_box .left p{
+        font-size: 15px;
+        margin-bottom: 1%;
+    }
+    .full_box .left button {
+        font-size: 14px;
+        width: 50%;
+        height: 30px;
+    }
+    .futtor .top span {
+        font-size: 22px;
+    }
+    .futtor .top p {
+        font-size: 17px;
+    }
+    .futtor .three_box .box1{
+        font-size: 15px;
     }
     }  
     
-  
-    /* Desktops */
-    @media (min-width: 1025px) {
-      
-    }
     
