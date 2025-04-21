@@ -7,3 +7,80 @@
 .flex{
     display: flex;
 }
+header{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    padding: 20px 20px 20px 28px;
+    cursor: pointer;
+    position: sticky;
+    background-color: white;
+}
+.header-left{
+    width: 28%;
+}
+.header-logo{
+    padding: 1% 0;
+}
+.header-addresss{
+    margin-left: 7%;
+}
+.header-addresss h3{
+    font-size: 18px;
+}
+.header-addresss p{
+    font-size: 13px;
+}
+.header-search{
+    flex-grow: 1;
+    display: flex;
+
+}
+.header-search i{
+    font-size: 15px;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+.header-search input{
+    height: 100%;
+    border: none;
+    font-size: 16px;
+}
+.header-search input:focus{
+    outline: none;
+}
+.h-btn{
+    height: 45px;
+    width: 115px;
+    margin-right: 40px;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+}
+.main{
+    max-width: 1280px;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner2{
+    width: 100%;
+    height:200px;
+    margin-left: 20px;
+    gap: 2%;
+}
+.banner2 img{
+    width: 31%;
+}
+.product{
+    width: 100%;
+}
+.product img{
+    width: 9.71%;
+}
