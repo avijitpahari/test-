@@ -1,63 +1,79 @@
+
+.flex{
+    display: flex;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.flex{
-    display: flex;
-}
-header{
-    height: 12vh;
+.main{
     width: 100%;
-    display: flex;
-    padding: 20px 20px 20px 28px;
-    cursor: pointer;
+    height: fit-content;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 10% 75% 15%;
+    border: 1px solid #00000020;
+    padding: 0px 2em;
     position: fixed;
+    width: 100%;
     background-color: white;
 }
-.header-left{
-    width: 28%;
+header .logo{
+    padding: 1.4em 0px;
+    font-size: 1.1em;
+    border-right: 1px solid #00000020;
 }
-.header-logo{
-    padding: 1% 0;
-}
-.header-addresss{
-    margin-left: 7%;
-}
-.header-addresss h3{
-    font-size: 18px;
-}
-.header-addresss p{
-    font-size: 13px;
-}
-.header-search{
-    flex-grow: 1;
+header .middle{
     display: flex;
-
+    align-items: center;
+    justify-content: space-evenly;
 }
-.header-search i{
-    font-size: 15px;
-    margin-top: 16px;
-    margin-right: 10px;
+header .middle .address .fa-user{
+    display: none;
 }
-.header-search input{
+header .input{
+    width: 60%;
+    background-color: #00000010;
+    border-radius: 10px;
+    padding: 0.8em;
+    border: 1px solid #00000020;
+}
+header .input input{
+    width: 80%;
     height: 100%;
+    font-size: 15px;
     border: none;
-    font-size: 16px;
+    background: transparent;
 }
-.header-search input:focus{
+header .input input:focus{
     outline: none;
 }
-.h-btn{
-    height: 45px;
-    width: 115px;
-    margin-right: 40px;
-    font-size: 19px;
-    border-radius: 10px;
-    border: none;
-    font-weight: 300;
+header .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+header .right a{text-decoration: none; font-size: 20px;}
+header .right .cart{
+    background-color: aqua;
+    padding: 0.7em;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+}
+header .right a .h-btn{
+    padding: .6em .8em;
+    border: none;
+    margin-right: .5em;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
 .main{
     max-width: 1280px;
     margin: auto;
@@ -68,6 +84,7 @@ header{
 .banner img{
     width: 100%;
     height: 100%;
+    margin-top: 4.4em;
 }
 .banner2{
     width: 100%;
@@ -82,5 +99,5 @@ header{
     width: 100%;
 }
 .product img{
-    width: 9.71%;
+    width: 9.6%;
 }
