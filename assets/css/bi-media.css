@@ -1,16 +1,4 @@
-@media (max-width: 350px){
-    .banner img {
-       
-        margin-top: 7.4em;
-    }
-    .address label h3{
-        font-size: 15px;
-    }
-    .address label p{
-        font-size: 12px;
-    }
- 
-}
+
 @media (max-width: 724px) {
     header{
         grid-template-columns: 1fr 2fr;
@@ -110,7 +98,25 @@
         font-size: 7px;
     }
 }
-
+@media (max-width: 350px){
+    .banner img {
+       
+        margin-top: 8.2em;
+    }
+    .address label h3{
+        font-size: 15px;
+    }
+    .address label p{
+        font-size: 12px;
+    }
+    .padding{
+        margin: 0  .4em;
+    }
+    header .logo {
+        padding: .1em 0px;
+    }
+ 
+}
 
 @media(min-width: 725px) and (max-width: 1024px){
     header{

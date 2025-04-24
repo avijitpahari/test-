@@ -4,7 +4,9 @@
     display: flex;
 
 }
-
+.padding{
+    margin: 0 1em;
+}
 
 * {
     margin: 0;
@@ -26,7 +28,7 @@ header {
     display: grid;
     grid-template-columns: 10% 75% 15%;
     border: 1px solid #00000020;
-    padding: 0px 2em;
+    padding: 0px 1em;
     position: fixed;
     width: 100%;
     background-color: white;
