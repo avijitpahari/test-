@@ -16,7 +16,7 @@
     header .middle .address{width: 100%;display: flex;align-items: center;justify-content: space-between;}
     header .middle .address i{font-size: 21px;display: contents;}
     header .middle .address p{font-size: 12px;}
-    header .middle .input{width: 90%;border-radius: 5px;background-color: #00808010;}
+    header .middle .input{width: 50%;border-radius: 5px;background-color: #00808010;}
     
     .body{
         padding: 8.5em 1em;
