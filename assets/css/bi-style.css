@@ -27,7 +27,7 @@ img {
 header {
     display: grid;
     grid-template-columns: 10% 75% 15%;
-    border: 1px solid #00000020;
+    /* border: 1px solid #00000020; */
     padding: 0px 1em;
     position: fixed;
     width: 100%;
