@@ -1,3 +1,16 @@
+@media (max-width: 350px){
+    .banner img {
+       
+        margin-top: 7.4em;
+    }
+    .address label h3{
+        font-size: 15px;
+    }
+    .address label p{
+        font-size: 12px;
+    }
+ 
+}
 @media (max-width: 724px) {
     header{
         grid-template-columns: 1fr 2fr;
@@ -13,11 +26,10 @@
         justify-content: space-evenly;
     }
     header .middle .address{width: 100%;display: flex;align-items: center;justify-content: space-between;}
-    header .middle .address i{font-size: 25px;display: contents;}
+    header .middle .address i{font-size: 21px;display: contents;}
     header .middle .address p{font-size: 12px;}
     header .middle .input{width: 100%;border-radius: 5px;background-color: #00808010;}
     
-    /* ============Image_1st Start========= */
     .body{
         padding: 8.5em 1em;
         display: flex;
@@ -26,9 +38,7 @@
         padding-bottom: 1em;
     }
     .image_1st img{width: 100%;height: 15vh;}
-    /* ============Image_1st End========= */
-
-    /* ============Image_2nd Start========= */
+ 
     .image2nd{
         height: 10vh;
         display: flex;
@@ -38,8 +48,11 @@
         width:  6em;
         height: 100%;
     }
-    
-    /* ============Image_2nd End========= */
+    .banner img {
+       
+        margin-top: 7.4em;
+    }
+
 
     #heading{font-size: 20px;}
     #heading p{font-size: 10px;}
@@ -51,7 +64,7 @@
         font-size: 14px;
         font-weight: bold;
     }
-    /* ======Footer====== */
+
     footer{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -69,7 +82,7 @@
         width: 100%;
         height: fit-content;
         font-size: 15px;
-        /* position: absolute; */
+       
     }
     footer .box .under_box .boxx{gap: 0.5em;}
     footer .under_box .boxx a{
@@ -109,7 +122,7 @@
         padding-bottom: 2em;
     }
 
-    /* ============Image_2nd Start========= */
+
     .image2nd{
         height: 10vh;
         display: flex;
